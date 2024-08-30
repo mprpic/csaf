@@ -228,14 +228,14 @@ A string SHOULD NOT have a length greater than:
   * `/document/references[]/summary`
   * `/document/tracking/revision_history[]/summary`
   * `/product_tree/branches[]/product/product_identification_helper/cpe`
-  * `/product_tree/branches[]/product/product_identification_helper/purl`
+  * `/product_tree/branches[]/product/product_identification_helper/purls[]`
   * `/product_tree/branches[](/branches[])*/product/product_identification_helper/cpe`
-  * `/product_tree/branches[](/branches[])*/product/product_identification_helper/purl`
+  * `/product_tree/branches[](/branches[])*/product/product_identification_helper/purls[]`
   * `/product_tree/full_product_names[]/product_identification_helper/cpe`
-  * `/product_tree/full_product_names[]/product_identification_helper/purl`
+  * `/product_tree/full_product_names[]/product_identification_helper/purls[]`
   * `/product_tree/product_groups[]/summary`
   * `/product_tree/relationships[]/full_product_name/product_identification_helper/cpe`
-  * `/product_tree/relationships[]/full_product_name/product_identification_helper/purl`
+  * `/product_tree/relationships[]/full_product_name/product_identification_helper/purls[]`
   * `/vulnerabilities[]/acknowledgments[]/summary`
   * `/vulnerabilities[]/involvements[]/summary`
   * `/vulnerabilities[]/references[]/summary`
